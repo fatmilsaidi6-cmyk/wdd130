@@ -5,6 +5,7 @@
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --wire-border: #5a5a5a;
 }
 
 * {
@@ -156,28 +157,17 @@ footer nav {
 }
 
 /*Contact Us Page */
-:root {
-    --wire-border: #5a5a5a;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,
-body {
+html {
     width: 100%;
     min-height: 100%;
 }
 
-body {
+body.contact-page {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background: #fff;
-    font-family: Arial, Helvetica, sans-serif;
     color: #111;
 }
 
